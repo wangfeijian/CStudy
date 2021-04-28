@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LearnC.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  02.c
+  01.c
+  正在生成代码...
+  LearnC.vcxproj -> D:\Study\C++编程开发(162集全)\test\Debug\Array.exe
+  LearnC.vcxproj -> D:\Study\C++编程开发(162集全)\test\Debug\Array.pdb (Partial PDB)
