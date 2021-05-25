@@ -11,5 +11,7 @@
 
 DLLAPI int mul(int a, int b);
 
-DLLAPI int div(int a, int b);
+DLLAPI int dive(int a, int b);
+
+void show();
 #endif

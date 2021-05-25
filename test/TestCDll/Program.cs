@@ -19,7 +19,7 @@ namespace TestCDll
             int b = int.Parse(bStr);
 
             Console.WriteLine($"{a} * {b} = {mul(a, b)}");
-            Console.WriteLine($"{a} / {b} = {div(a, b)}");
+            Console.WriteLine($"{a} / {b} = {dive(a, b)}");
 
             Console.ReadKey();
         }
@@ -29,6 +29,6 @@ namespace TestCDll
         static extern int mul(int a, int b);
 
         [DllImport("TestDll.dll", CallingConvention=CallingConvention.Cdecl)]
-        static extern int div(int a, int b);
+        static extern int dive(int a, int b);
     }
 }
