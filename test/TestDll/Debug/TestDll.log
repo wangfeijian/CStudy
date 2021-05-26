@@ -1,6 +1,7 @@
 ﻿  testDll.c
 d:\study\c++编程开发(162集全)\cstudy\test\testdll\testdll.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\testdll\testdll.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
+d:\study\c++编程开发(162集全)\cstudy\test\testdll\testdll.c(22): warning C4133: “函数”: 从“unsigned short [5]”到“LPCSTR”的类型不兼容
     正在创建库 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\TestDll.lib 和对象 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\TestDll.exp
   TestDll.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\TestDll.dll
   TestDll.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\TestDll.pdb (Full PDB)

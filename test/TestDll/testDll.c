@@ -18,6 +18,11 @@ DLLAPI int dive(int a, int b)
 
 void show()
 {
-	MessageBoxA(NULL, TEXT("注册错误"), TEXT("提示"), 1);
-	exit(0);
+	HKEY valueKey;
+	if (!ERROR_SUCCESS == RegOpenKeyA(HKEY_USERS, L"test", &valueKey))
+	{
+		printf("%p\n",valueKey);
+		MessageBoxA(NULL, TEXT("注册错误"), TEXT("提示"), 1);
+	}
+	//exit(0);
 }

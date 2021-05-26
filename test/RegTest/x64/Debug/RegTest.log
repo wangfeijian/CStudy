@@ -1,0 +1,5 @@
+﻿  01.c
+d:\study\c++编程开发(162集全)\cstudy\test\regtest\01.c(10): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+d:\study\c++编程开发(162集全)\cstudy\test\regtest\01.c(9): warning C4133: “初始化”: 从“unsigned short [26]”到“char *”的类型不兼容
+  RegTest.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\RegTest.exe
+  RegTest.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\RegTest.pdb (Full PDB)
