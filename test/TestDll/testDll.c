@@ -19,7 +19,7 @@ DLLAPI int dive(int a, int b)
 void show()
 {
 	HKEY valueKey;
-	if (!ERROR_SUCCESS == RegOpenKeyA(HKEY_USERS, L"test", &valueKey))
+	if (ERROR_SUCCESS == RegOpenKeyA(HKEY_USERS, L"test", &valueKey))
 	{
 		printf("%p\n",valueKey);
 		MessageBoxA(NULL, TEXT("×¢²á´íÎó"), TEXT("ÌáÊ¾"), 1);

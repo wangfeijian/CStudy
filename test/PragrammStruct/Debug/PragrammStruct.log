@@ -1,3 +1,5 @@
-﻿  01.c
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“d:\study\c++编程开发(162集全)\cstudy\test\debug\pragrammstruct.ilk”正由另一进程使用，因此该进程无法访问此文件。
+  01.c
+  LINK : 没有找到 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\PragrammStruct.exe 或上一个增量链接没有生成它；正在执行完全链接
   PragrammStruct.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\PragrammStruct.exe
   PragrammStruct.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\PragrammStruct.pdb (Partial PDB)

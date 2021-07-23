@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  test.cpp
+d:\study\c++编程开发(162集全)\cstudy\test\test\test.cpp(28): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+  d:\study\c++编程开发(162集全)\cstudy\test\test\test.cpp(28): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+d:\study\c++编程开发(162集全)\cstudy\test\test\test.cpp(34): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [7]”转换为“LPCWSTR”
+  d:\study\c++编程开发(162集全)\cstudy\test\test\test.cpp(34): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换

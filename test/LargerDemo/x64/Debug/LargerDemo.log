@@ -1,0 +1,8 @@
+﻿  word.c
+  line.c
+d:\study\c++编程开发(162集全)\cstudy\test\largerdemo\line.c(30): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  justify.c
+d:\study\c++编程开发(162集全)\cstudy\test\largerdemo\justify.c(24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  LargerDemo.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\LargerDemo.exe
+  LargerDemo.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\LargerDemo.pdb (Partial PDB)

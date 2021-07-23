@@ -1,0 +1,9 @@
+﻿  02.c
+  01.c
+d:\study\c++编程开发(162集全)\cstudy\test\learnc\01.c(24): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\study\c++编程开发(162集全)\cstudy\test\learnc\01.c(24): note: 请考虑在格式字符串中使用“%lld”
+  d:\study\c++编程开发(162集全)\cstudy\test\learnc\01.c(24): note: 请考虑在格式字符串中使用“%Id”
+  d:\study\c++编程开发(162集全)\cstudy\test\learnc\01.c(24): note: 请考虑在格式字符串中使用“%I64d”
+  正在生成代码...
+  LearnC.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\Array.exe
+  LearnC.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\Array.pdb (Partial PDB)
