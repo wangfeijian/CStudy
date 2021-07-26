@@ -13,11 +13,15 @@ DLLAPI int ChangeUser(int nNewUser, char * szPassword);
 
 DLLAPI int ChangePassword(int nUser, char * szPassword, char * szNewPassword);
 
-const void checkSecurity();
+void checkSecurity();
 
-const char * readRegValue(char * subKey, char * name, char * data);
+void readRegValue(char * subKey, char * name, char * data);
 
-const void setRegValue(char *subKey, char * valueName, char * data);
+void setRegValue(char *subKey, char * valueName, char * data);
 
-const void setUser(int num);
+void setUser(int num);
+
+void getHardAndMac(unsigned char * registerStr);
+
+void getMd5(char * decrypt, unsigned char * registerStr);
 #endif

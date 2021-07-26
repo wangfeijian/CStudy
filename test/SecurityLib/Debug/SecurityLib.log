@@ -1,19 +1,14 @@
-﻿  security.c
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“d:\study\c++编程开发(162集全)\cstudy\test\debug\securitylib.ilk”正由另一进程使用，因此该进程无法访问此文件。
+  systemInfo.c
+  security.c
 d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(113): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(144): warning C4477: “printf”: 格式字符串“%ls”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“char *”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(144): note: 请考虑在格式字符串中使用“%hs”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(144): note: 请考虑在格式字符串中使用“%s”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(144): note: 请考虑在格式字符串中使用“%Ts”
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(153): warning C4477: “printf”: 格式字符串“%ls”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“char *”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(153): note: 请考虑在格式字符串中使用“%hs”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(153): note: 请考虑在格式字符串中使用“%s”
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(153): note: 请考虑在格式字符串中使用“%Ts”
+  md5.c
   main.c
 d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
   正在生成代码...
+  LINK : 没有找到 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.dll 或上一个增量链接没有生成它；正在执行完全链接
     正在创建库 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.lib 和对象 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.exp
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.dll
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.pdb (Partial PDB)

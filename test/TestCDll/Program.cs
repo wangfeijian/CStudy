@@ -20,7 +20,8 @@ namespace TestCDll
             ChangeUser(1, "test456");
             current = GetCurUser();
             Console.WriteLine(current);
-            ChangePassword(2, "test789", "test7893");
+            current=ChangePassword(2, "test7893", "test789");
+            Console.WriteLine(current);
             Console.ReadKey();
         }
 
