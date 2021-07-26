@@ -13,6 +13,22 @@ DLLAPI int ChangeUser(int nNewUser, char * szPassword);
 
 DLLAPI int ChangePassword(int nUser, char * szPassword, char * szNewPassword);
 
+DLLAPI char GetBit(int index);
+
+DLLAPI void SetBit(int index, char value);
+
+DLLAPI int GetInt(int index);
+
+DLLAPI void SetInt(int index, int value);
+
+DLLAPI double GetDouble(int index);
+
+DLLAPI void SetDouble(int index, double value);
+
+DLLAPI char * GetString(int index, char * value);
+
+DLLAPI void SetString(int index, char * str);
+
 void checkSecurity();
 
 void readRegValue(char * subKey, char * name, char * data);

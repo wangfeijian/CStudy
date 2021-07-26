@@ -20,7 +20,21 @@ int main(int argc, char* argv[])
 	//getHardAndMac(registerStr);
 	//getMd5(decrypt,registerStr);
 	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("register"), decrypt);
-	ChangeUser(1, TEXT("test456"));
-	ChangePassword(1, "test158", "test456");
-	checkSecurity();
+
+	//≤‚ ‘»®œﬁ
+	//ChangeUser(1, TEXT("test456"));
+	//ChangePassword(1, "test158", "test456");
+	//checkSecurity();
+
+	//≤‚ ‘ºƒ¥Ê∆˜
+	char str[100] = { 0 };
+	SetBit(1, 1);
+	char c = GetBit(1);
+	SetInt(1, 156);
+	int i = GetInt(1);
+	SetDouble(1, 3.56);
+	double d = GetDouble(1);
+	SetString(2, "test");
+	GetString(2,str);
+	printf(str);
 }

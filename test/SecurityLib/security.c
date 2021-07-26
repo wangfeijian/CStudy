@@ -14,6 +14,10 @@ bool havePermission = false;
 char * user;
 char regValue[100] = { 0 };
 
+char sysBitReg[100] = { 0 };
+int sysIntReg[100] = { 0 };
+double sysDoubleReg[100] = { 0 };
+char sysStrReg[100][100] = { 0 };
 
 DLLAPI int GetCurUser()
 {
@@ -58,6 +62,49 @@ DLLAPI int ChangePassword(int nNewUser, char * szOldPassword, char * szNewPasswo
 		return 1;
 	}
 	return 0;
+}
+
+DLLAPI char GetBit(int index)
+{
+	return sysBitReg[index];
+}
+
+DLLAPI void SetBit(int index, char value)
+{
+	sysBitReg[index] = value;
+}
+
+DLLAPI int GetInt(int index)
+{
+	return sysIntReg[index];
+}
+
+DLLAPI void SetInt(int index, int value)
+{
+	sysIntReg[index] = value;
+}
+
+DLLAPI double GetDouble(int index)
+{
+	return sysDoubleReg[index];
+}
+
+DLLAPI void SetDouble(int index, double value)
+{
+	sysDoubleReg[index] = value;
+}
+
+DLLAPI char * GetString(int index)
+{
+	char* value;
+	value = (char *)malloc(100);
+	strcpy(value, sysStrReg[index]);
+	return value;
+}
+
+DLLAPI void SetString(int index, char* str)
+{
+	strcpy(sysStrReg[index], str);
 }
 
 void setUser(int num)

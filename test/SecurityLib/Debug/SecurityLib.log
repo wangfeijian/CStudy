@@ -1,14 +1,13 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“d:\study\c++编程开发(162集全)\cstudy\test\debug\securitylib.ilk”正由另一进程使用，因此该进程无法访问此文件。
-  systemInfo.c
+﻿  systemInfo.c
   security.c
 d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
+d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(98): warning C4029: 声明的形参表不同于定义
   md5.c
   main.c
 d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
   正在生成代码...
-  LINK : 没有找到 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.dll 或上一个增量链接没有生成它；正在执行完全链接
     正在创建库 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.lib 和对象 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.exp
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.dll
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.pdb (Partial PDB)
