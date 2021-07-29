@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("register"), decrypt);
 
 	//≤‚ ‘»®œﬁ
-	//ChangeUser(1, TEXT("test456"));
+	ChangeUser(1, TEXT("test456"));
 	//ChangePassword(1, "test158", "test456");
 	//checkSecurity();
 

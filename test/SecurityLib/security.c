@@ -135,7 +135,7 @@ void checkSecurity()
 	else
 	{
 		isCheck = true;
-		unsigned char checkStr[11] = { 0 };
+		unsigned char checkStr[13] = { 0 };
 		char checkDecrypt[48]={0};
 		char checkValue[33]={0};
 
@@ -224,14 +224,14 @@ void getHardAndMac(unsigned char * registerStr)
 {
 	char hardDiskNum[128] = { 0 };
 	char mac[200] = { 0 };
-	char front[12] = { 0 };
-	char back[6] = { 0 };
+	char front[14] = { 0 };
+	char back[7] = { 0 };
 
 	getHardDiskNumber(hardDiskNum);
 	getMAC(mac);
 
-	strncpy(front, hardDiskNum, 5);
-	strncpy(back, mac, 5);
+	strncpy(front, hardDiskNum+6, 6);
+	strncpy(back, hardDiskNum, 6);
 	strcat(front, back);
 	strcpy(registerStr, front);
 	printf(registerStr);
