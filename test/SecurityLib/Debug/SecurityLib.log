@@ -8,7 +8,6 @@ d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(98): warn
 d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
   d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
   正在生成代码...
-cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
     正在创建库 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.lib 和对象 D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.exp
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.dll
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\Debug\SecurityLib.pdb (Partial PDB)
