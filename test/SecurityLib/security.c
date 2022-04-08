@@ -141,7 +141,7 @@ void checkSecurity()
 
 		getHardAndMac(checkStr);
 		getMd5(checkDecrypt, checkStr);
-		readRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("register"), checkValue);
+		readRegValue(TEXT("SOFTWARE\\SosoVision\\User"), TEXT("register"), checkValue);
 
 		if (strcmp(checkDecrypt,checkValue)!=0)/*使用方法来进行判断*/
 		{
