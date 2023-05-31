@@ -1,15 +1,14 @@
-﻿  systemInfo.c
-  security.c
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(98): warning C4029: 声明的形参表不同于定义
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(214): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.c(245): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+﻿  main.c
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\Security.h(5,1): warning C4005: “DLLAPI”: 宏重定义
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\Security.h(5,1): message : 之前在命令行上声明的“DLLAPI”
   md5.c
-  main.c
-d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): warning C4005: “DLLAPI”: 宏重定义
-  d:\study\c++编程开发(162集全)\cstudy\test\securitylib\security.h(5): note: 命令行参数: 参见前面的“DLLAPI”定义
+  security.c
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\Security.h(5,1): warning C4005: “DLLAPI”: 宏重定义
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\Security.h(5,1): message : 之前在命令行上声明的“DLLAPI”
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\security.c(98,1): warning C4029: 声明的形参表不同于定义
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\security.c(214,70): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\Study\C++编程开发(162集全)\CStudy\test\SecurityLib\security.c(245,31): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  systemInfo.c
   正在生成代码...
     正在创建库 D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\SecurityLib.lib 和对象 D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\SecurityLib.exp
   SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\SecurityLib.dll
-  SecurityLib.vcxproj -> D:\Study\C++编程开发(162集全)\CStudy\test\x64\Debug\SecurityLib.pdb (Partial PDB)

@@ -9,17 +9,17 @@
 int main(int argc, char* argv[])
 {
 	// 注册的时候使用
-	//unsigned char registerStr[11] = { 0 };
-	//char decrypt[48]={0};
-	//getMd5(decrypt,TEXT("test123"));
-	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("0"),decrypt);
-	//getMd5(decrypt,TEXT("test456"));
-	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("1"),decrypt);
-	//getMd5(decrypt,TEXT("test789"));
-	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("2"),decrypt);
-	//getHardAndMac(registerStr);
-	//getMd5(decrypt,registerStr);
-	//setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), TEXT("register"), decrypt);
+	unsigned char registerStr[11] = { 0 };
+	char decrypt[48]={0};
+	getMd5(decrypt,TEXT("test123"));
+	setRegValue(TEXT("SOFTWARE\\SosoVision\\User"), TEXT("0"),decrypt);
+	getMd5(decrypt,TEXT("test456"));
+	setRegValue(TEXT("SOFTWARE\\SosoVision\\User"), TEXT("1"),decrypt);
+	getMd5(decrypt,TEXT("test789"));
+	setRegValue(TEXT("SOFTWARE\\SosoVision\\User"), TEXT("2"),decrypt);
+	getHardAndMac(registerStr);
+	getMd5(decrypt,registerStr);
+	setRegValue(TEXT("SOFTWARE\\SosoVision\\User"), TEXT("register"), decrypt);
 
 	//测试权限
 	ChangeUser(2, TEXT("test456"));

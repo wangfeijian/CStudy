@@ -31,7 +31,7 @@ DLLAPI int ChangeUser(int nNewUser, char * szPassword)
 
 	setUser(nNewUser);
 
-	readRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), user, regValue);
+	readRegValue(TEXT("SOFTWARE\\SosoVision\\User"), user, regValue);
 
 	char decrypt[48]={0};
 	getMd5(decrypt,szPassword);
@@ -50,7 +50,7 @@ DLLAPI int ChangePassword(int nNewUser, char * szOldPassword, char * szNewPasswo
 
 	setUser(nNewUser);
 
-	readRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), user, regValue);
+	readRegValue(TEXT("SOFTWARE\\SosoVision\\User"), user, regValue);
 
 	char decrypt[48]={0};
 	getMd5(decrypt,szOldPassword);
@@ -58,7 +58,7 @@ DLLAPI int ChangePassword(int nNewUser, char * szOldPassword, char * szNewPasswo
 	if (!strcmp(decrypt, regValue))
 	{
 		getMd5(decrypt,szNewPassword);
-		setRegValue(TEXT("SOFTWARE\\AutoMationFrameWork\\User"), user, decrypt);
+		setRegValue(TEXT("SOFTWARE\\SosoVision\\User"), user, decrypt);
 		return 1;
 	}
 	return 0;
