@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 #include "../header/equation_demo.h";
 
@@ -92,4 +93,23 @@ void equation(void)
 			break;
 		}
 	}
+}
+
+double selfSqrt(int num)
+{
+	double initValue = 1.0;
+
+	while (true)
+	{
+		double value = (initValue + num / initValue) / 2;
+		if (fabs(value - initValue) < 0.000001)
+		{
+			initValue = value;
+			break;
+		}
+
+		initValue = value;
+	}
+
+	return initValue;
 }

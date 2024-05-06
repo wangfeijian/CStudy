@@ -2,6 +2,12 @@
 
 void functionTest(void);
 
-void showAllPrimersOfRanger(int num);
+void showAllPrimersOfRanger(int);
 
-bool isPrimer(int num);
+bool isPrimer(int);
+
+void swap(int *, int *);
+
+void changeArr(int[], int);
+
+float average(int, ...);

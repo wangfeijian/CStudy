@@ -89,7 +89,7 @@ void rearrange(char* output, char const* input, int nColumns, int const columns[
 	output[outputCol] = '\0';
 }
 
-void practice2(void)
+void practice1_2(void)
 {
 	int ch;
 	int line = 0;
@@ -112,7 +112,7 @@ void practice2(void)
 	}
 }
 
-void practice3(void)
+void practice1_3(void)
 {
 	int ch;
 	int atBeginning = 1;
@@ -135,7 +135,7 @@ void practice3(void)
 	}
 }
 
-void practice4(void)
+void practice1_4(void)
 {
 	char inputs[MAX_INPUT];
 	char outputs[MAX_INPUT];
@@ -168,7 +168,7 @@ void practice4(void)
 	printf("输入最长的一行是：%s\n", outputs);
 }
 
-void practice5(char* output, char const* input, int nColumns, int const columns[])
+void practice1_5(char* output, char const* input, int nColumns, int const columns[])
 {
 	int col;
 	int outputCol;
@@ -199,7 +199,7 @@ void practice5(char* output, char const* input, int nColumns, int const columns[
 	output[outputCol] = '\0';
 }
 
-void testPractice5(void)
+void testPractice1_5(void)
 {
 	int nColumns;
 	int columns[MAX_COLS];
@@ -220,7 +220,7 @@ void testPractice5(void)
 		printf("请输入原始字符:");
 		gets_s(inputs);
 		printf("Original input : %s\n", inputs);
-		practice5(outputs, inputs, nColumns, columns);
+		practice1_5(outputs, inputs, nColumns, columns);
 		printf("Rearranged line: %s\n", outputs);
 
 		if (!checkContinue())
@@ -231,7 +231,7 @@ void testPractice5(void)
 	}
 }
 
-int practice6_1(int columns[], int max)
+int practice1_6_1(int columns[], int max)
 {
 	int num = 0;
 	int ch;
@@ -249,7 +249,7 @@ int practice6_1(int columns[], int max)
 	return num;
 }
 
-void practice6_2(char* output, char const* input, int nColumns, int const columns[])
+void practice1_6_2(char* output, char const* input, int nColumns, int const columns[])
 {
 	int col;
 	int outputCol;
@@ -281,7 +281,7 @@ void practice6_2(char* output, char const* input, int nColumns, int const column
 	output[outputCol] = '\0';
 }
 
-void testPractice6(void)
+void testPractice1_6(void)
 {
 	int nColumns;
 	int columns[MAX_COLS];
@@ -295,14 +295,14 @@ void testPractice6(void)
 	printf("例如，0 3 10 12 -1表示第2列到第3列，第10列到第12列的内容被打印\n");
 
 	printf("请输入规则：");
-	nColumns = practice6_1(columns, MAX_COLS);
+	nColumns = practice1_6_1(columns, MAX_COLS);
 
 	while (true)
 	{
 		printf("请输入原始字符:");
 		gets_s(inputs);
 		printf("Original input : %s\n", inputs);
-		practice6_2(outputs, inputs, nColumns, columns);
+		practice1_6_2(outputs, inputs, nColumns, columns);
 		printf("Rearranged line: %s\n", outputs);
 
 		if (!checkContinue())

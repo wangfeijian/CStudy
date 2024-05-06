@@ -7,24 +7,24 @@
 #define MAX_COLS 20
 #define MAX_INPUT 1000
 
-int readColumnNumbers(int columns[], int max);
+int readColumnNumbers(int[], int);
 
-void rearrange(char* output, char const* input, int nColumns, int const columns[]);
+void rearrange(char*, char const*, int, int const []);
 
 void testRearrange(void);
 
-void practice2(void);
+void practice1_2(void);
 
-void practice3(void);
+void practice1_3(void);
 
-void practice4(void);
+void practice1_4(void);
 
-void practice5(char* output, char const* input, int nColumns, int const columns[]);
+void practice1_5(char*, char const*, int, int const []);
 
-void testPractice5(void);
+void testPractice1_5(void);
 
-int practice6_1(int columns[], int max);
+int practice1_6_1(int [], int);
 
-void practice6_2(char* output, char const* input, int nColumns, int const columns[]);
+void practice1_6_2(char*, char const*, int, int const []);
 
-void testPractice6(void);
+void testPractice1_6(void);

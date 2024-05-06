@@ -30,6 +30,12 @@
     <ClCompile Include="src\source\cpoint_unit1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\source\cpoint_unit4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\linked_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\header\equation_demo.h">
@@ -39,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\header\cpoint_unit1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\cpoint_unit4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\linked_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

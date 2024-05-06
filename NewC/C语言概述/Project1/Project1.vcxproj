@@ -127,16 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\source\cpoint_unit4.cpp" />
     <ClCompile Include="src\source\equation_demo.cpp" />
     <ClCompile Include="src\source\function_demo.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\source\cpoint_unit1.cpp" />
+    <ClCompile Include="src\source\linked_list.cpp" />
     <ClCompile Include="src\source\window_demo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\header\cpoint_unit4.h" />
     <ClInclude Include="src\header\equation_demo.h" />
     <ClInclude Include="src\header\function_demo.h" />
     <ClInclude Include="src\header\cpoint_unit1.h" />
+    <ClInclude Include="src\header\linked_list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

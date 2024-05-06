@@ -5,17 +5,12 @@
 #include "header/equation_demo.h"
 #include "header/function_demo.h"
 #include "header/cpoint_unit1.h"
+#include "header/cpoint_unit4.h"
+#include "header/linked_list.h"
 
 int main(void)
 {
-	// 一元二次方程的程序
-	//equation();
-
-	// 求素数
-	//functionTest();
-
-	// rearrange测试
-	//testRearrange();
-	testPractice6();
+	PNODE p = create_linked_list(5);
+	show_linked_list_value(p);
 	return 0;
 }
