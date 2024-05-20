@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\\${fileBasenameNoExtension}.cpp", //编译多个文件时，需要修改为 "${fileDirname}\\*.cpp"
                 "-o",
                 "${fileDirname}\\exe\\${fileBasenameNoExtension}.exe"
             ],
